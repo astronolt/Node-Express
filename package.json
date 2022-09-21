@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "About node and express",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odicodes/Node-Express.git"
+  },
+  "author": "Odi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odicodes/Node-Express/issues"
+  },
+  "homepage": "https://github.com/odicodes/Node-Express#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "lodash": "^4.17.21"
+  }
+}

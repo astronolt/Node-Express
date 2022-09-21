@@ -2,7 +2,7 @@ const http = require('http')
 
 const server = http.createServer(
    (req, res)=>{
-      const pageTitle = '<title>Noje - Express</title>';
+      const pageTitle = '<title>Node - Express</title>';
       const pageHome = '<h1>welcome to the home page</h1>';
       const pageHistory = '<h1>Here is our short history</h1>';
       const pageError = `
