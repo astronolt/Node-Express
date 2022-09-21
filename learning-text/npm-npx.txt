@@ -1,0 +1,43 @@
+DEV DEPENDECIES
+===============
+
+In package.json file, there is an object called as dev Dependencies and it consists of all the packages that are used in the project in its development phase and not in the production or testing environment with its version number. So, whenever you want to install any library that is required only in your development phase then you can find it in the dev Dependencies object. 
+
+Use the below command to add more dev Dependencies in your project:
+
+npm install <package name> --save-dev
+
+Example: Installing the bootstrap module that we want to use in the development phase only and not in the production or testing phase for the project, use the following command:
+
+
+
+script
+======
+ start: (npm start)
+ dev: (npm run dev)
+
+
+
+uninstall
+=========
+npm uninstall <package name>
+
+
+
+
+global packages
+===============
+NPM can also install packages globally so that all the node.js application on that computer can import and use the installed packages. NPM installs global packages into /<User>/local/lib/node_modules folder.
+
+Apply -g in the install command to install package globally. For example, the following command will install ExpressJS globally.
+ npm install -g express
+
+in command prompt, you can run global packages directly
+
+
+
+
+Uninstall Packages
+
+Use the following command to remove a local package from your project.
+C:\>npm uninstall <package name> 
